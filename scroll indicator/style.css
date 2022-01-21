@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,400&display=swap");
+
+* {
+  padding: 0;
+}
+
+*::selection {
+  background-color: hotpink;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
+}
+
+html {
+  font-size: calc(1em + 1vw);
+}
+
+/* setting the max width*/
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 1.5em;
+  }
+}
+
+p {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #e1fffa;
+  }
+  
+  .header h2 {
+    text-align: center;
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: rgb(199, 242, 255);
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #068fff;
+    width: 0%;
+  }
+  
+  .content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
